@@ -1,0 +1,13 @@
+<h1>This is the Pokemon Search Engine</h1>
+{% for n in names %}
+<div class="instagram-rip-off">
+    <div class="card" style="width: 40vw;">
+        <div class="card-body">
+            <img src="{{ image_url }}" alt="pokemon image">
+          <p class="card-text">{{ n }}</p>
+          <p class="card-text">{{abilities}}</p>
+        </div>
+      </div>
+</div>
+{% endfor %}
+{% endblock content %}

@@ -1,0 +1,19 @@
+.btn-shoha {
+    background-color: crimson;
+}
+
+.instagram-rip-off {
+    display: grid;
+    place-items: center;
+}
+footer {
+    position: relative;
+    width: 100vw;
+    text-align: center;
+    bottom: 0;
+    background-color: #212529;
+    color: white;
+}
+.main {
+    margin-bottom: 50px;
+}
